@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #14112d;
+    margin: 0;
+    display: flex;
+}
+
+.name {
+    color: #dcecdd;
+    font-size: 1.5rem;
+    display: flex;
+    position: absolute;
+    left: 37%;
+    top: 27.0rem;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    width: 15.0rem;
+    height: 15.0rem;
+    display: flex;
+    position: absolute;
+    left: 7.0rem;
+    top: 3.5rem;
+}
+
+.card-perfil {
+    background-color: #241E52;
+    margin: 3.0rem;
+    position: absolute;
+    width: 30.0rem;
+    height: 35.0rem;
+    border-radius: 10%;
+    box-shadow: 1.0rem 1.0rem 5.0rem 0.1rem black;
+}
+
+.right {
+    position: absolute;
+    left: 39.0rem;
+}
+
+.work {
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #241E52;
+    border: none;
+    outline: none;
+    border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
+    box-shadow: 1.0rem 1.0rem 5.0rem 0.1rem black;
+}
+
+.amigos {
+    margin: 1.0rem;
+}
+
+.title {
+    color: white;
+    font-size: xx-large;
+    margin-top: 5.0rem;
+    margin-right: 5.0rem;
+}
+
+.amigos-perfil {
+    border-radius: 50%;
+    text-decoration: #13102B;
+    margin: 1.0rem;
+}
+
+.bottom-left {
+    position: absolute;
+    top: 40.0rem;
+    left: 12.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    color: #56d85f;
+    text-decoration: none;
+    font-size: 10.0rem;
+}
+
+#button {
+    position: absolute;
+    left: 40%;
+    background-color: #56d85f;
+    width: 20.0rem;
+    height: 3.0rem;
+    color: #ffffff;
+    font-size: 2.0rem;
+    border: none;
+    outline: none;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 40px #94e29a;
+    left: 50px;
+    top: 217px;
+    cursor: pointer;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.dev {
+    margin-left: 100px;
+}
+
+.dev-prog {
+    color: #56d85f;
+    text-decoration: none;
+    font-size: 10.0rem;
+}
